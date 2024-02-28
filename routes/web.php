@@ -82,3 +82,11 @@ Route::resource('photos', PhotoController::class)->except([
     'create', 'store', 'update', 'destroy'
 ]);
 
+
+// view
+// Route::get('/greeting', function () {
+//     return view('blog.hello', ['name' => 'Denny']);
+// });
+// diganti routenya ke controller ky gini 
+Route::get('/greeting', [WelcomeController::class, 
+'greeting']); 
