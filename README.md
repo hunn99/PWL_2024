@@ -97,7 +97,7 @@ Hasilnya sama aja <br>
 
 Mengubah route dan mengarahkan ke WelcomeController <br>
 ![alt text](images/image-33.png)
-![alt text](images/image-34.png)
+![alt text](images/image-34.png) <br>
 Hasilnya juga sama <br>
 
 Mengubah fungsi greeting <br>
