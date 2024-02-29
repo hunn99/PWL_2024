@@ -1,66 +1,109 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# <center><strong> Laporan Praktikum Web Lanjut </center>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# <center> Jobsheet 2 </strong></center>
 
-## About Laravel
+## <center><strong>NIM : 2241720107 <br></center>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## <center><strong>Nama : Denny Malik Ibrahim <br></center>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## <center><strong>Kelas : TI-2H</center>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<br>
+<br>
 
-## Learning Laravel
+## Basic Routing
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Membuat route hello world
+![alt text](images/image-3.png)
+![alt text](images/image.png)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Membuat route world
+![alt text](images/image-4.png)
+![alt text](images/image-1.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Membuat route selamat datang
+![alt text](images/image-5.png)
+![alt text](images/image-2.png)
 
-## Laravel Sponsors
+Membuat route about
+![alt text](images/image-6.png)
+![alt text](images/image-7.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Route Parameters
 
-### Premium Partners
+![alt text](images/image-8.png)
+![alt text](images/image-9.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Dengan 2 parameter
+![alt text](images/image-10.png)
+![alt text](images/image-11.png)
+Suatu route, juga bisa menerima lebih dari 1 parameter
 
-## Contributing
+![alt text](images/image-13.png)
+![alt text](images/image-12.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Optional Parameters
 
-## Code of Conduct
+![alt text](images/image-14.png)
+![alt text](images/image-16.png)
+Parameter boleh tidak diisi karena diinialisasi bisa sama dengan null
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![alt text](images/image-17.png)
+![alt text](images/image-18.png)
+Muncul nama sesuai parameter yang diinisialisasikan
 
-## Security Vulnerabilities
+## Controller
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![alt text](images/image-19.png)
+![alt text](images/image-20.png)
 
-## License
+Menambah di route
+![alt text](images/image-21.png)
+![alt text](images/image-22.png)
+Setelah sebuah controller telah didefinisikan action, kita dapat menambahkan controller tersebut pada route
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## PageController
+
+![alt text](images/image-23.png)
+![alt text](images/image-24.png)
+![alt text](images/image-25.png)
+
+Memodifikasi kembali implementasi sebelumnya dengan konsep Single Action Controller
+
+## HomeController
+
+![alt text](images/image-26.png)
+
+## About controller
+
+![alt text](images/image-27.png)
+
+## Articles controller
+
+![alt text](images/image-28.png)
+
+## photoController
+
+![alt text](images/image-29.png)
+
+## View
+
+![alt text](images/image-30.png)
+
+Melakukan perubahan pada route karena file hello masuk kedalam folder blog
+![alt text](images/image-31.png)
+![alt text](images/image-32.png)
+Hasilnya sama aja
+
+Mengubah route dan mengarahkan ke WelcomeController
+![alt text](images/image-33.png)
+![alt text](images/image-34.png)
+Hasilnya juga sama
+
+Mengubah fungsi greeting
+![alt text](images/image-35.png)
+
+Menampilkan 2 parameter pada hello.blade
+![alt text](images/image-36.png)
+![alt text](images/image-37.png)
+Meneruskan array data lengkap ke fungsi view helper menggunakan metode with untuk menambahkan bagian data individual ke view. Metode with mengembalikan instance view objek sehingga kita dapat melanjutkan rangkaian metode sebelum mengembalikan tampilan

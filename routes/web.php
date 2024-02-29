@@ -54,11 +54,11 @@ Route::get('/hello', [WelcomeController::class, 'hello']);
 //Modifikasi hasil pada praktikum poin 2 (Routing) dengan konsep controller. Pindahkan 
 //logika eksekusi ke dalam controller dengan nama PageController.
 
-Route::get('/', [PageController::class, 'index']);
+// Route::get('/', [PageController::class, 'index']);
 
-Route::get('/about', [PageController::class, 'about']);
+// Route::get('/about', [PageController::class, 'about']);
 
-Route::get('/articles/{id}', [PageController::class, 'articles']);
+// Route::get('/articles/{id}', [PageController::class, 'articles']);
 
 // Modifikasi kembali implementasi sebelumnya dengan konsep Single Action Controller. 
 // Sehingga untuk hasil akhir yang didapatkan akan ada HomeController, 
@@ -88,5 +88,7 @@ Route::resource('photos', PhotoController::class)->except([
 //     return view('blog.hello', ['name' => 'Denny']);
 // });
 // diganti routenya ke controller ky gini 
-Route::get('/greeting', [WelcomeController::class, 
-'greeting']); 
+Route::get('/greeting', [
+    WelcomeController::class,
+    'greeting'
+]);
