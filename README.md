@@ -11,99 +11,99 @@
 <br>
 <br>
 
-## Basic Routing
+## Basic Routing<br>
 
-Membuat route hello world
+Membuat route hello world <br>
 ![alt text](images/image-3.png)
 ![alt text](images/image.png)
 
-Membuat route world
+Membuat route world <br>
 ![alt text](images/image-4.png)
 ![alt text](images/image-1.png)
 
-Membuat route selamat datang
+Membuat route selamat datang <br>
 ![alt text](images/image-5.png)
 ![alt text](images/image-2.png)
 
-Membuat route about
+Membuat route about <br>
 ![alt text](images/image-6.png)
 ![alt text](images/image-7.png)
 
-## Route Parameters
+## Route Parameters <br>
 
 ![alt text](images/image-8.png)
 ![alt text](images/image-9.png)
 
-Dengan 2 parameter
+Dengan 2 parameter <br>
 ![alt text](images/image-10.png)
-![alt text](images/image-11.png)
+![alt text](images/image-11.png) <br>
 Suatu route, juga bisa menerima lebih dari 1 parameter
 
 ![alt text](images/image-13.png)
 ![alt text](images/image-12.png)
 
-## Optional Parameters
+## Optional Parameters <br>
 
 ![alt text](images/image-14.png)
-![alt text](images/image-16.png)
+![alt text](images/image-16.png) <br>
 Parameter boleh tidak diisi karena diinialisasi bisa sama dengan null
 
 ![alt text](images/image-17.png)
-![alt text](images/image-18.png)
+![alt text](images/image-18.png) <br>
 Muncul nama sesuai parameter yang diinisialisasikan
 
-## Controller
+## Controller <br>
 
 ![alt text](images/image-19.png)
 ![alt text](images/image-20.png)
 
-Menambah di route
+Menambah di route <br>
 ![alt text](images/image-21.png)
-![alt text](images/image-22.png)
+![alt text](images/image-22.png) <br>
 Setelah sebuah controller telah didefinisikan action, kita dapat menambahkan controller tersebut pada route
 
-## PageController
+## PageController <br>
 
 ![alt text](images/image-23.png)
 ![alt text](images/image-24.png)
-![alt text](images/image-25.png)
+![alt text](images/image-25.png) <br>
 
-Memodifikasi kembali implementasi sebelumnya dengan konsep Single Action Controller
+Memodifikasi kembali implementasi sebelumnya dengan konsep Single Action Controller <br>
 
-## HomeController
+## HomeController <br>
 
 ![alt text](images/image-26.png)
 
-## About controller
+## About controller <br>
 
 ![alt text](images/image-27.png)
 
-## Articles controller
+## Articles controller <br>
 
 ![alt text](images/image-28.png)
 
-## photoController
+## photoController <br>
 
 ![alt text](images/image-29.png)
 
-## View
+## View <br>
 
-![alt text](images/image-30.png)
+![alt text](images/image-30.png) <br>
 
-Melakukan perubahan pada route karena file hello masuk kedalam folder blog
+Melakukan perubahan pada route karena file hello masuk kedalam folder blog <br>
 ![alt text](images/image-31.png)
-![alt text](images/image-32.png)
-Hasilnya sama aja
+![alt text](images/image-32.png) <br>
+Hasilnya sama aja <br>
 
-Mengubah route dan mengarahkan ke WelcomeController
+Mengubah route dan mengarahkan ke WelcomeController <br>
 ![alt text](images/image-33.png)
 ![alt text](images/image-34.png)
-Hasilnya juga sama
+Hasilnya juga sama <br>
 
-Mengubah fungsi greeting
+Mengubah fungsi greeting <br>
 ![alt text](images/image-35.png)
 
-Menampilkan 2 parameter pada hello.blade
+Menampilkan 2 parameter pada hello.blade <br>
 ![alt text](images/image-36.png)
-![alt text](images/image-37.png)
+![alt text](images/image-37.png) <br>
 Meneruskan array data lengkap ke fungsi view helper menggunakan metode with untuk menambahkan bagian data individual ke view. Metode with mengembalikan instance view objek sehingga kita dapat melanjutkan rangkaian metode sebelum mengembalikan tampilan
