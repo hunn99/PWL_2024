@@ -107,3 +107,4 @@ Menampilkan 2 parameter pada hello.blade <br>
 ![alt text](images/image-36.png)
 ![alt text](images/image-37.png) <br>
 Meneruskan array data lengkap ke fungsi view helper menggunakan metode with untuk menambahkan bagian data individual ke view. Metode with mengembalikan instance view objek sehingga kita dapat melanjutkan rangkaian metode sebelum mengembalikan tampilan
+## $\textcolor{yellow}{This\ is\ a\ Big\ Title}$
